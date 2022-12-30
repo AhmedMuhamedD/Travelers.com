@@ -1,0 +1,15 @@
+#id {
+  overflow-x: hidden;
+}
+.body {
+  overflow-x: hidden;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border py-2 px-3 rounded-full;
+  }
+}
